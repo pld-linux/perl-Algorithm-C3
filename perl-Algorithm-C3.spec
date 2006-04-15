@@ -24,10 +24,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 C3 is the name of an algorithm which aims to provide a sane method
 resolution order under multiple inheritance. It was first introduced
 in the Dylan language (see links in the manual SEE ALSO section), and
-then later adopted as the prefered MRO (Method Resolution Order)
-for the new-style classes in Python 2.3. Most recently it has been
-adopted as the 'canonical' MRO for Perl 6 classes, and the default
-MRO for Parrot objects as well.
+then later adopted as the preferred MRO (Method Resolution Order) for
+the new-style classes in Python 2.3. Most recently it has been adopted
+as the 'canonical' MRO for Perl 6 classes, and the default MRO for
+Parrot objects as well.
 
 %description -l pl
 C3 to nazwa algorytmu, którego celem jest dostarczenie rozs±dnej
