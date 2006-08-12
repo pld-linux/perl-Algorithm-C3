@@ -8,7 +8,7 @@
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
 Summary(pl):	Algorithm::C3 - modu³ do ³±czenia hierarchii przy u¿yciu algorytmu C3
 Name:		perl-Algorithm-C3
-Version:	0.01
+Version:	0.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
