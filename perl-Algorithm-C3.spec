@@ -8,13 +8,13 @@
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
 Summary(pl):	Algorithm::C3 - modu³ do ³±czenia hierarchii przy u¿yciu algorytmu C3
 Name:		perl-Algorithm-C3
-Version:	0.04
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/S/ST/STEVAN/Algorithm-C3-0.01.tar.gz
-# Source0-md5:	1627146f60e34dcffcb2386adefa466a
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	d087e68c937e7076bb07396b281685c1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
