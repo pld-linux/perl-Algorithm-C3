@@ -6,7 +6,7 @@
 %define	pdir	Algorithm
 %define	pnam	C3
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
-Summary(pl):	Algorithm::C3 - modu³ do ³±czenia hierarchii przy u¿yciu algorytmu C3
+Summary(pl.UTF-8):   Algorithm::C3 - moduÅ‚ do Å‚Ä…czenia hierarchii przy uÅ¼yciu algorytmu C3
 Name:		perl-Algorithm-C3
 Version:	0.06
 Release:	1
@@ -29,14 +29,14 @@ the new-style classes in Python 2.3. Most recently it has been adopted
 as the 'canonical' MRO for Perl 6 classes, and the default MRO for
 Parrot objects as well.
 
-%description -l pl
-C3 to nazwa algorytmu, którego celem jest dostarczenie rozs±dnej
-kolejno¶ci rozwi±zywania metod przy wielokrotnym dziedziczeniu. Po raz
-pierwszy zosta³ wprowadzony w jêzyku Dylan (odno¶niki w sekcji SEE
-ALSO manuala), a nastêpnie zaadoptowany jako preferowana MRO (Method
-Resolution Order - kolejno¶æ rozwi±zywania metod) dla nowego stylu
-klas w Pythonie 2.3. Ostatnio zosta³ zaadoptowany jako "kanoniczna"
-MRO dla klas Perla 6 i domy¶lna MRO dla obiektów Parrota.
+%description -l pl.UTF-8
+C3 to nazwa algorytmu, ktÃ³rego celem jest dostarczenie rozsÄ…dnej
+kolejnoÅ›ci rozwiÄ…zywania metod przy wielokrotnym dziedziczeniu. Po raz
+pierwszy zostaÅ‚ wprowadzony w jÄ™zyku Dylan (odnoÅ›niki w sekcji SEE
+ALSO manuala), a nastÄ™pnie zaadoptowany jako preferowana MRO (Method
+Resolution Order - kolejnoÅ›Ä‡ rozwiÄ…zywania metod) dla nowego stylu
+klas w Pythonie 2.3. Ostatnio zostaÅ‚ zaadoptowany jako "kanoniczna"
+MRO dla klas Perla 6 i domyÅ›lna MRO dla obiektÃ³w Parrota.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
