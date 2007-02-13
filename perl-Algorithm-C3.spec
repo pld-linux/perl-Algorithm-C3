@@ -6,7 +6,7 @@
 %define	pdir	Algorithm
 %define	pnam	C3
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
-Summary(pl.UTF-8):   Algorithm::C3 - moduł do łączenia hierarchii przy użyciu algorytmu C3
+Summary(pl.UTF-8):	Algorithm::C3 - moduł do łączenia hierarchii przy użyciu algorytmu C3
 Name:		perl-Algorithm-C3
 Version:	0.06
 Release:	1
