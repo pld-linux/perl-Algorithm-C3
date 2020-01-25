@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Algorithm
 %define	pnam	C3
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
