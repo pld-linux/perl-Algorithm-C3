@@ -1,22 +1,26 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define	pdir	Algorithm
 %define	pnam	C3
 Summary:	Algorithm::C3 - A module for merging hierarchies using the C3 algorithm
 Summary(pl.UTF-8):	Algorithm::C3 - moduł do łączenia hierarchii przy użyciu algorytmu C3
 Name:		perl-Algorithm-C3
-Version:	0.10
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Algorithm/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	48162c8974b3056c1315203efc7d8748
-URL:		http://search.cpan.org/dist/Algorithm-C3/
+Source0:	https://www.cpan.org/modules/by-module/Algorithm/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	978c6343c542aa8ba61a73674a93c587
+URL:		https://metacpan.org/dist/Algorithm-C3
+%if %{with tests}
+BuildRequires:	perl-Test-Simple >= 0.47
+%endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -60,5 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Algorithm/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Algorithm/C3.pm
+%{_mandir}/man3/Algorithm::C3.3pm*
